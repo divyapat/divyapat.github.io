@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#showcase {
+    height: 100vh;
+    color: #fff;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
+    background: linear-gradient(#12c2e9, #c471ed, #f64f59);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: center;
+    padding: 0 20px;
+
+}
+#showcase h1 {
+    font-size: 50px;
+}
+#showcase p {
+    font-size: 20px;
+    width: 60%
+}
+
+#showcase .button {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border:2px solid #fff;
+    padding: 5px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#showcase .button:hover {
+background:#A81E8C; 
+}
+
+/* SECTIONS */
+#section-a {
+    padding: 20px;
+    background: #ac3243;
+    color: #fff;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #221b8e;
+    color: #fff;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+    
+}
+
+#section-c div {
+    padding: 20px;
+    text-align: center;
+}
+
+#section-c .box-1 {
+    background: #b0757a;
+    color: #fff;
+}
+
+#section-c .box-2 {
+    background: #3f91a3;
+    color: #fff;
+}
+
+#section-c .box-3 {
+    background: #70157c;
+    color: #fff;
+}
